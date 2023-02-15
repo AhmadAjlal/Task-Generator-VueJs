@@ -1,0 +1,50 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "text": "Doctors Appointment",
+      "day": "March 1st at 2:30PM",
+      "remainder": true,
+      "reminder": true
+    },
+    {
+      "id": "3",
+      "text": "Food Shopping",
+      "day": "March 5th at 11:00AM",
+      "remainder": true,
+      "reminder": true
+    },
+    {
+      "id": "4",
+      "text": "Dinner with Friends",
+      "day": "February 10th at 09:00PM",
+      "remainder": false,
+      "reminder": true
+    },
+    {
+      "text": "Tasker App",
+      "day": "Everyday",
+      "remainder": true,
+      "id": "JanBsSD",
+      "reminder": true
+    },
+    {
+      "text": "Idiot App",
+      "day": "Never",
+      "remainder": false,
+      "id": "amsArme"
+    },
+    {
+      "text": "Ahmad",
+      "day": "Now",
+      "remainder": true,
+      "id": "pxaGIXP"
+    },
+    {
+      "text": "New Task",
+      "day": "Tomorrow",
+      "remainder": true,
+      "id": "Wi7msaV"
+    }
+  ]
+}
