@@ -1,18 +1,18 @@
 <template>
-  <form @submit="onSubmit" class="add-form">
+  <form class="add-form" @submit="onSubmit">
     <div class="form-control">
       <label>Task</label>
-      <input type="text" name="text" v-model="text" placeholder="Add Task Name">
+      <input v-model="text" name="text" placeholder="Add Task Name" type="text">
     </div>
     <div class="form-control">
       <label>Day & Time</label>
-      <input type="text" name="day" v-model="day" placeholder="Add Day & Time">
+      <input v-model="day" name="day" placeholder="Add Day & Time" type="text">
     </div>
     <div class="form-control form-control-check">
       <label>Set Remainder</label>
-      <input type="checkbox" v-model="remainder" name="remainder">
+      <input v-model="remainder" name="remainder" type="checkbox">
     </div>
-    <input type="submit" value="Save Task" class="btn btn-block">
+    <input class="btn btn-block" type="submit" value="Save Task">
   </form>
 
 </template>

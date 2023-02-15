@@ -3,7 +3,7 @@
     <h3>Version 1.0.0</h3>
     <br>
     <br>
-    <p style="">Made With <br> <span> &hearts; </span> <br>  by <br> <br> Ahmad Ajlal Arshad</p>
+    <p style="">Made With <br> <span> &hearts; </span> <br> by <br> <br> Ahmad Ajlal Arshad</p>
   </div>
 </template>
 
@@ -27,6 +27,7 @@ p {
   color: darkred;
   font-size: 20px;
 }
+
 span {
   color: red;
   font-size: 50px;

@@ -1,8 +1,8 @@
 <template>
   <header>
     <h1>{{ title }}</h1>
-    <Button v-show="homePage" @btn-click="$emit('toggle-add-task')" :btn-name="showAddTask ? 'Close' : 'Add Task'"
-            :color="showAddTask ? 'red' : 'green'"/>
+    <Button v-show="homePage" :btn-name="showAddTask ? 'Close' : 'Add Task'" :color="showAddTask ? 'red' : 'green'"
+            @btn-click="$emit('toggle-add-task')"/>
   </header>
 </template>
 
